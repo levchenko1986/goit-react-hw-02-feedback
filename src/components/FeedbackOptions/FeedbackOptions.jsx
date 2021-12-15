@@ -5,7 +5,7 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
   const button = options.map((button) => (
     <li key={button}>
       <button
-        className={styles.button}
+        className={styles.btns}
         type="button"
         value={button}
         onClick={() => onLeaveFeedback(button)}
@@ -17,7 +17,7 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
   return <ul className={styles.btns}>{button}</ul>;
 }
 
-FeedbackOptions.prototype = {
+FeedbackOptions.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };

@@ -1,5 +1,24 @@
 .btns {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+    margin-left: 20px;
+    width: 150px;
+}
+
+button {
+    height: 40px;
+    margin-top: 20px;
+    border: 0 solid transparent;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    background-color: #21f360;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    cursor: pointer;
+}
+
+button:last-child {
+    margin-bottom: 20px;
+}
+
+button:hover,
+button:focus {
+    background-color: #26ca57;
 }

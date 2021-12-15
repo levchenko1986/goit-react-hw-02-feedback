@@ -1,0 +1,12 @@
+.statistics {
+    width: 200px;
+    margin-left: 40px;
+}
+
+.item {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
